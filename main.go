@@ -19,7 +19,7 @@ var (
 
 func main() {
 
-	err = godotenv.Load("config/.env")
+	err = godotenv.Load("config/.env.prod")
 
 	if err != nil {
 		fmt.Println("failed load file environment")
